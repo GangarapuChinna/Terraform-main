@@ -16,7 +16,7 @@ resource "aws_instance" "test" {
 #   }
 
 # lifecycle {
-#   prevent_destroy = true    #Terraform will error when it attempts to destroy a resource when this is set to true:
+#   prevent_destroy = true    #Terraform will give error when it attempts to destroy a resource when this is set to true:
 # }
 
 
